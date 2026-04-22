@@ -1,9 +1,7 @@
 import os
 import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
-
-import os
+from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filter
 
 TOKEN = os.getenv("TOKEN")
 
